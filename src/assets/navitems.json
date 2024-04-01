@@ -1,0 +1,67 @@
+[
+  {
+    "path": "/",
+    "icon": "fa-solid fa-arrow-right",
+    "title": "Forside",
+    "type": "default"
+  },
+  {
+    "path": "/referencer",
+    "icon": "fa-solid fa-arrow-right",
+    "title": "Referencer",
+    "type": "default"
+  },
+  {
+    "path": "/kontakt",
+    "icon": "fa-solid fa-arrow-right",
+    "title": "Kontakt",
+    "type": "default"
+  },
+  {
+    "path": "/om-os",
+    "icon": "fa-solid fa-arrow-right",
+    "title": "Om os",
+    "type": "default"
+  },
+  {
+    "id":"ydelserDropdown",
+    "path": "/ydelser",
+    "title": "Ydelser",
+    "type": "dropdown",
+    "isExpanded": false,
+    "icon": "fa-solid fa-arrow-right",
+    "icon-open": "fa-solid fa-arrow-down",
+    "items": [
+      {
+        "path": "/statisk-dokumentation",
+        "icon": "fa-solid fa-compass-drafting text-blue",
+        "title": "Statisk Dokumentation",
+        "text":"no text"
+      },
+      {
+        "path": "/fem-design",
+        "icon": "fas fa-laptop-code text-gray",
+        "title": "FEM-Design",
+        "text":"no text"
+      },
+      {
+        "path": "/staalrammer",
+        "icon": "fa-solid fa-helmet-safety text-yellow",
+        "title": "Stålrammer",
+        "text":"no text"
+      },
+      {
+        "path": "/murvaerkprojektering",
+        "icon": "fa-solid fa-trowel-bricks text-orange",
+        "title": "Murværkprojektering",
+        "text":"no text"
+      },
+      {
+        "path": "/diverse",
+        "icon": "fas fa-pencil-ruler",
+        "title": "Diverse",
+        "text":"no text"
+      }
+    ]
+  }
+]

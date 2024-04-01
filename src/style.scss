@@ -1,0 +1,85 @@
+
+@import './styles/variables';
+@import 'bootstrap/scss/bootstrap.scss';
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+
+.flex-1 {
+  flex: 1
+}
+
+#app {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.table-brøns-darkgray th {
+  background: #6F7275;
+  color: white;
+}
+
+h1 {
+  color: $primary
+}
+
+.breadcrumb-nav {
+  background: $primary;
+  .breadcrumb {
+    font-size: 14px;
+    color: $light !important;
+    letter-spacing: 2px;
+    border-radius: 5px !important;
+    .breadcrumb-item {
+      a {
+        text-decoration: none !important;
+        color: #aaa;
+      }
+      :hover {
+        color: white;
+      }
+    }
+    .breadcrumb-item.active {
+      a {
+        color: white;
+      }
+    }
+  }  
+}
+
+.nav-link {
+  color: $primary;
+}
+
+.navbar-brand {
+  max-width: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-brand {
+    max-width: 150px;
+  }
+}
+
+.padding-l-1-rest-0 {
+  padding: 0rem 0rem 0rem 1rem;
+}
+
+.text-yellow {
+  color: #F0D60F;
+}
+.text-gray {
+  color: #6b6b6b;
+}
+
+.text-blue {
+  color: #3c6affbe;
+}
+
+.text-orange {
+  color: #ff7b00ea;
+}

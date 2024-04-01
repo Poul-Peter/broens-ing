@@ -1,0 +1,27 @@
+{
+  "name": "broensing-vue",
+  "version": "4.1.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite --open",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bs5-lightbox": "^1.8.3",
+    "photoswipe": "^5.4.3",
+    "vue": "^3.2.40",
+    "vue-router": "^4.1.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.0",
+    "gh-pages": "^6.1.1",
+    "sass": "^1.72.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0",
+    "vue-tsc": "^0.40.4"
+  }
+}
