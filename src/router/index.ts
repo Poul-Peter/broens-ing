@@ -80,7 +80,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/broens-ing'),
   routes,
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
