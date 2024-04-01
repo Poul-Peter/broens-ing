@@ -1,1 +1,0 @@
-import{_ as o,e as r,o as t,k as s}from"./index.6600eceb.js";const n={name:"Ydelser"};function c(a,_,p,d,f,i){const e=r("router-view");return t(),s(e)}const m=o(n,[["render",c]]);export{m as default};
